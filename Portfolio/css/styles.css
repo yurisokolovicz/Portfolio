@@ -75,12 +75,32 @@ p {
   right: 10%;
 }
 
+@media (max-width: 995px) {
+  .tindog-image {
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static; /* the image static is back to the flow of the html*/
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .natours-image {
   width: 110%;
   transform: rotate(15deg);
   position: absolute;
   top: -35%;
   right: 10%;
+}
+
+@media (max-width: 995px) {
+  .natours-image {
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .guess_my_number-image {
@@ -91,6 +111,16 @@ p {
   right: 10%;
 }
 
+@media (max-width: 995px) {
+  .guess_my_number-image {
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .pig_game-image {
   width: 110%;
   transform: rotate(15deg);
@@ -99,12 +129,32 @@ p {
   right: 10%;
 }
 
+@media (max-width: 995px) {
+  .pig_game-image {
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 .bankist-image {
   width: 110%;
   transform: rotate(15deg);
   position: absolute;
   top: 10%;
   right: 10%;
+}
+
+@media (max-width: 995px) {
+  .bankist-image {
+    transform: rotate(0deg);
+    padding: 5% 5%;
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .title-image {
@@ -132,10 +182,26 @@ p {
   position: relative;
 }
 
+@media (max-width: 995px) {
+  #features {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 #features-2 {
   padding: 15% 15%;
   background-color: rgba(113, 165, 113, 0.445);
   position: relative;
+}
+
+@media (max-width: 995px) {
+  #features-2 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 #features-3 {
@@ -144,16 +210,40 @@ p {
   position: relative;
 }
 
+@media (max-width: 995px) {
+  #features-3 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 #features-4 {
   padding: 15% 15%;
   background-color: rgba(113, 165, 113, 0.445);
   position: relative;
 }
 
+@media (max-width: 995px) {
+  #features-4 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
+}
+
 #features-5 {
   padding: 15% 15%;
   background-color: #fff;
   position: relative;
+}
+
+@media (max-width: 995px) {
+  #features-5 {
+    position: static;
+    text-align: center;
+    width: 100%;
+  }
 }
 
 /* . = class type */
