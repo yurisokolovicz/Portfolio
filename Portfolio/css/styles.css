@@ -30,6 +30,12 @@ p {
   color: #fff;
 }
 
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+}
+
 #container {
   background-color: #2b2829;
 }
@@ -165,17 +171,7 @@ p {
   right: 10%;
 }
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
-}
-
-.icon:hover {
-  color: #ff4c68;
-}
-
 /* Features section */
-/* # = id type */
 #features {
   padding: 15% 15%;
   background-color: #fff;
@@ -184,9 +180,7 @@ p {
 
 @media (max-width: 995px) {
   #features {
-    position: static;
     text-align: center;
-    width: 100%;
   }
 }
 
@@ -198,9 +192,7 @@ p {
 
 @media (max-width: 995px) {
   #features-2 {
-    position: static;
     text-align: center;
-    width: 100%;
   }
 }
 
@@ -246,7 +238,6 @@ p {
   }
 }
 
-/* . = class type */
 .feature-box {
   text-align: center;
   padding: 5%;
@@ -262,20 +253,4 @@ p {
   padding: 10px;
   margin: 20px 10px;
   scale: 2;
-}
-
-/* . = class type */
-.pricing-collum {
-  padding: 3% 2%;
-}
-
-@media (max-width: 1028px) {
-  #title {
-    text-align: center;
-  }
-
-  .title-image {
-    position: static; /* the image static is back to the flow of the html*/
-    transform: rotate(0);
-  }
 }
