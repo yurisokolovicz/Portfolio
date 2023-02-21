@@ -24,6 +24,16 @@ p {
     color: #8f8f8f;
 }
 
+/* .logo-box {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+
+.logo {
+    height: 50px;
+} */
+
 /* # = id type */
 #title {
     background-color: #2b2829;
