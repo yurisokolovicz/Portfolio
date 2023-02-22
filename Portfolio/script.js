@@ -19,3 +19,13 @@ const tindogButtonDoc = document.getElementById('tindog-button-doc');
 tindogButtonDoc.addEventListener('click', function () {
     window.location.href = 'https://github.com/yurisokolovicz/TinderDog';
 });
+
+const natoursButtonWeb = document.getElementById('natours-button-web');
+natoursButtonWeb.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/Natours/tree/main/Natours/';
+});
+
+const natoursButtonDoc = document.getElementById('natours-button-doc');
+natoursButtonDoc.addEventListener('click', function () {
+    window.location.href = 'https://github.com/yurisokolovicz/Natours';
+});
