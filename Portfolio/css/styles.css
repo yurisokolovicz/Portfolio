@@ -155,7 +155,7 @@ p {
     width: 110%;
     transform: rotate(0deg);
     position: absolute;
-    top: 30%;
+    top: -35%;
     right: 10%;
 }
 
@@ -177,7 +177,7 @@ p {
     width: 110%;
     transform: rotate(0deg);
     position: absolute;
-    top: 10%;
+    top: -35%;
     right: 10%;
 }
 
